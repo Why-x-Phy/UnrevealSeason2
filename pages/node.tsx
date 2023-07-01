@@ -245,6 +245,7 @@ if (isLoading) {
           <hr className={`${styles.divider} ${styles.spacerTop}`} />
           <h2>Your Deactivated Node`s</h2>
 
+{/*
           <Web3Button
             className={styles.wallet}
             contractAddress={stakingNode}
@@ -253,6 +254,8 @@ if (isLoading) {
             >
             Activate Selected Node`s
           </Web3Button>
+
+*/}
 
           <div className={styles.nftBoxGrid}>
             {ownedNfts?.map((nft) => (
